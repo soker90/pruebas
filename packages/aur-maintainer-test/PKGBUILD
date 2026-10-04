@@ -6,8 +6,8 @@ pkgdesc='Test package for aur-maintainer update flow'
 arch=('any')
 url='https://github.com/soker90/aur-maintainer'
 license=('MIT')
-source=()
-sha256sums=()
+source=('https://github.com/soker90/aur-maintainer/archive/refs/tags/v$pkgver.tar.gz')
+sha256sums=('SKIP')
 
 package() {
   install -Dm644 /dev/null "$pkgdir/usr/share/doc/$pkgname/README"
