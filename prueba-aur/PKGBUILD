@@ -1,6 +1,6 @@
 # Test package for soker90/aur-maintainer
 pkgname=aur-maintainer-test
-pkgver=0.1.0
+pkgver=1.0.0
 pkgrel=1
 pkgdesc='Test package for aur-maintainer update flow'
 arch=('any')
