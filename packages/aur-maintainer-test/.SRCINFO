@@ -5,4 +5,6 @@ pkgbase = aur-maintainer-test
 	url = https://github.com/soker90/aur-maintainer
 	arch = any
 	license = MIT
+	source = https://github.com/soker90/aur-maintainer/archive/refs/tags/v$pkgver.tar.gz
+	sha256sums = SKIP
 	pkgname = aur-maintainer-test
