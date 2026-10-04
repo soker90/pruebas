@@ -6,7 +6,7 @@ pkgdesc='Test package for aur-maintainer update flow'
 arch=('any')
 url='https://github.com/soker90/aur-maintainer'
 license=('MIT')
-source=('https://github.com/soker90/aur-maintainer/archive/refs/tags/v$pkgver.tar.gz')
+source=("https://github.com/soker90/aur-maintainer/archive/refs/tags/v$pkgver.tar.gz")
 sha256sums=('SKIP')
 
 package() {
