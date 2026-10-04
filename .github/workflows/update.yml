@@ -1,0 +1,21 @@
+name: Test aur-maintainer
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: soker90/aur-maintainer@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          update-branch: automation/aur-maintainer-updates
+          base-branch: master
+          auto-merge: false
+          publish-aur: false
