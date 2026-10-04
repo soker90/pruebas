@@ -1,10 +1,11 @@
 pkgbase = aur-maintainer-test
 	pkgdesc = Test package for aur-maintainer update flow
-	pkgver = 0.0.0
+	pkgver = 1.0.0
 	pkgrel = 1
 	url = https://github.com/soker90/aur-maintainer
 	arch = any
 	license = MIT
-	source = https://github.com/soker90/aur-maintainer/archive/refs/tags/v$pkgver.tar.gz
-	sha256sums = SKIP
-	pkgname = aur-maintainer-test
+	source = https://github.com/soker90/aur-maintainer/archive/refs/tags/v1.0.0.tar.gz
+	sha256sums = 0e0c69e4f2ff9470f26acc5d70c7d7a17b1c1b8c326796e0c450ace63ecfcafc
+
+pkgname = aur-maintainer-test
