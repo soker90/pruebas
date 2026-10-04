@@ -1,0 +1,8 @@
+pkgbase = aur-maintainer-test
+	pkgdesc = Test package for aur-maintainer update flow
+	pkgver = 0.0.0
+	pkgrel = 1
+	url = https://github.com/soker90/aur-maintainer
+	arch = any
+	license = MIT
+	pkgname = aur-maintainer-test
