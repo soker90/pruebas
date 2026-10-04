@@ -15,7 +15,7 @@ jobs:
       - uses: soker90/aur-maintainer@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          update-branch: automation/aur-maintainer-updates
+          update-branch: update
           base-branch: master
           auto-merge: false
           aur-publish: false
