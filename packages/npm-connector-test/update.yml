@@ -1,0 +1,6 @@
+connector: npm
+config:
+  package: picomatch
+updates:
+  source: 'source=("picomatch-${version}.tgz::${source}")'
+  sha256: 'sha256sums=("${sha256}")'

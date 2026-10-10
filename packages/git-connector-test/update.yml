@@ -1,0 +1,6 @@
+connector: git
+config:
+  repository: sharkdp/hexyl
+updates:
+  source: 'source=("hexyl-${version}.tar.gz::${source}")'
+  sha256: 'sha256sums=("${sha256}")'

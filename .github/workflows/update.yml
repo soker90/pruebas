@@ -2,6 +2,9 @@ name: Test aur-maintainer
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - 'test/**'
 
 permissions:
   contents: write

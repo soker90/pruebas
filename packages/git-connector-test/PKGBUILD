@@ -1,0 +1,14 @@
+# Test fixture: repository-local Git tag connector.
+pkgname=git-connector-test
+pkgver=0.0.1
+pkgrel=1
+pkgdesc='AUR Maintainer Git tag connector integration fixture'
+arch=('any')
+url='https://github.com/sharkdp/hexyl'
+license=('MIT')
+source=("hexyl-${pkgver}.tar.gz::https://github.com/sharkdp/hexyl/archive/refs/tags/v${pkgver}.tar.gz")
+sha256sums=('SKIP')
+
+package() {
+  install -Dm644 "$srcdir/hexyl-${pkgver}.tar.gz" "$pkgdir/usr/share/doc/$pkgname/hexyl-${pkgver}.tar.gz"
+}
