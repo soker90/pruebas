@@ -1,0 +1,11 @@
+pkgbase = npm-connector-test
+	pkgdesc = AUR Maintainer npm connector integration fixture
+	pkgver = 4.0.7
+	pkgrel = 1
+	url = https://www.npmjs.com/package/picomatch
+	arch = any
+	license = MIT
+	source = picomatch-4.0.7.tgz::https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz
+	sha256sums = 697b463be3cdbd9ffc8f4194fd5019a69ddf95875fb703d78b2b115cc9e740a8
+
+pkgname = npm-connector-test
