@@ -1,0 +1,14 @@
+# Test fixture: built-in npm registry connector.
+pkgname=npm-connector-test
+pkgver=0.0.1
+pkgrel=1
+pkgdesc='AUR Maintainer npm connector integration fixture'
+arch=('any')
+url='https://www.npmjs.com/package/picomatch'
+license=('MIT')
+source=("picomatch-${pkgver}.tgz::https://registry.npmjs.org/picomatch/-/picomatch-${pkgver}.tgz")
+sha256sums=('SKIP')
+
+package() {
+  install -Dm644 "$srcdir/picomatch-${pkgver}.tgz" "$pkgdir/usr/share/doc/$pkgname/picomatch-${pkgver}.tgz"
+}

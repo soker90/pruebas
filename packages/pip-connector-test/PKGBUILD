@@ -1,0 +1,14 @@
+# Test fixture: PyPI source-distribution connector.
+pkgname=pip-connector-test
+pkgver=0.0.1
+pkgrel=1
+pkgdesc='AUR Maintainer pip connector integration fixture'
+arch=('any')
+url='https://pypi.org/project/packaging/'
+license=('Apache-2.0 OR BSD-2-Clause')
+source=("packaging-${pkgver}.tar.gz::https://files.pythonhosted.org/packages/source/p/packaging/packaging-${pkgver}.tar.gz")
+sha256sums=('SKIP')
+
+package() {
+  install -Dm644 "$srcdir/packaging-${pkgver}.tar.gz" "$pkgdir/usr/share/doc/$pkgname/packaging-${pkgver}.tar.gz"
+}
