@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: soker90/aur-maintainer@v1
+      - uses: soker90/aur-maintainer@main
         with:
           github-token: ${{ secrets.MAN_TOKEN }}
           update-branch: update
