@@ -2,5 +2,5 @@ connector: pip
 config:
   package: packaging
 updates:
-  source: 'source=("packaging-${version}.tar.gz::${source}")'
+  source: 'source=("packaging-${pkgver}.tar.gz::${source}")'
   sha256: 'sha256sums=("${sha256}")'
