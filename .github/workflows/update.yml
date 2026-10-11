@@ -19,6 +19,6 @@ jobs:
         with:
           github-token: ${{ secrets.MAN_TOKEN }}
           update-branch: update
-          base-branch: master
+          base-branch: ${{ github.ref_name }}
           auto-merge: false
           aur-publish: false
