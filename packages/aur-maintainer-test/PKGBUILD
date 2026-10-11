@@ -1,13 +1,13 @@
 # Test package for soker90/aur-maintainer
 pkgname=aur-maintainer-test
-pkgver=1.11.1
+pkgver=1.11.2
 pkgrel=1
 pkgdesc='Test package for aur-maintainer update flow'
 arch=('any')
 url='https://github.com/soker90/aur-maintainer'
 license=('MIT')
 source=("https://github.com/soker90/aur-maintainer/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('SKIP')
+sha256sums=('c1b146de536cf415fdc89a785ad56ccfc25296b5a20a4ba7aff780f1fcd0987c')
 
 package() {
   install -Dm644 /dev/null "$pkgdir/usr/share/doc/$pkgname/README"
